@@ -1,42 +1,68 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-.main{
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(197, 194, 190);
-}
-/* Content 1 */
-.container-fluid{
-    display: flex;
-}
-.container-fluid .cotain1,
-.cotain2{
-    width: 50%;
-    height: 100%;
-}
-.container-fluid .cotain1 h2{
-    color: white;
-    text-align: left;   
-    padding-top: 20px;
-    padding-left: 110px;
-}
-.container-fluid .cotain2 .row {
-    display: flex;
-    float: right;
-}
-.navbar-nav {
-    padding-right: 50px;
-}
-.container-fluid a{
-    padding-top: 14px;
-}
-/* Content 1 */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Koh+Santepheap:wght@100;300;400;700;900&family=Moderustic:wght@300..800&family=Noto+Serif+Khmer:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* Content 2 */
-.container{
-    height: 500px;
-    background-color: rgb(163, 153, 153);
+* {
+  padding: 0;
+  margin: 0;
 }
-/* Content 2 */
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  color: #333;
+  font-weight: 400;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+}
+
+.page-container {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+
+/* SIDE BAR */
+.sidebar-container {
+  position: sticky;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  max-width: 400px;
+  height: 100vh;
+  padding: 1.5rem;
+  border-right: 1px solid #ccc;
+}
+
+.sidebar-container .logo {
+  font-weight: 600;
+}
+
+.sidebar-container .sidebar-list {
+  margin-top: 2rem;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sidebar-container .sidebar-list a,
+.sidebar-container .sidebar-list button {
+  width: 100%;
+  text-align: start;
+}
+
+/* MAIN */
+main {
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 800px;
+}
