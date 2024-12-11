@@ -23,8 +23,12 @@ async function fetchAndRender(component, url) {
 }
 
 // Render components dynamically
-fetchAndRender('what-is-tiktok', 'what-is-tiktok.html');
+fetchAndRender("what-is-tiktok", "what-is-tiktok.html");
 fetchAndRender(
-  'getting-started-with-tiktok',
-  'getting-started-with-tiktok.html'
+  "getting-started-with-tiktok",
+  "getting-started-with-tiktok.html"
+);
+fetchAndRender(
+  "exploring-tiktok",
+  "exploring-tiktok.html"
 );
