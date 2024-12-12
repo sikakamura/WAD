@@ -32,3 +32,7 @@ fetchAndRender(
   "exploring-tiktok",
   "exploring-tiktok.html"
 );
+fetchAndRender(
+  "duet-stich",
+  "duet-stich.html"
+);
