@@ -36,3 +36,8 @@ fetchAndRender(
   "duet-stich",
   "duet-stich.html"
 );
+fetchAndRender(
+  "earning-tiktok",
+  "earning-tiktok.html"
+);
+
