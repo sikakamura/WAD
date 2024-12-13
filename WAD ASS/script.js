@@ -52,3 +52,7 @@ fetchAndRender(
   "additonal-tip",
   "additonal-tip.html"
 );
+fetchAndRender(
+  "final-th",
+  "final--th.html"
+);
