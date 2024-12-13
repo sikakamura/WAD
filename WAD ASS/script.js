@@ -48,4 +48,7 @@ fetchAndRender(
   "understand-tik",
   "understand-tik.html"
 );
-
+fetchAndRender(
+  "additonal-tip",
+  "additonal-tip.html"
+);
