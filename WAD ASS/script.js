@@ -54,5 +54,5 @@ fetchAndRender(
 );
 fetchAndRender(
   "final-th",
-  "final--th.html"
+  "final-th.html"
 );
