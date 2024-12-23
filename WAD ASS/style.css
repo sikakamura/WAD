@@ -40,6 +40,7 @@ a {
   height: 100vh;
   padding: 1.5rem;
   border-right: 1px solid #ccc;
+  overflow-y: scroll;
 }
 
 .sidebar-container .logo {
