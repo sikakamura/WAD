@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script type="module" src="tiktok-components.js"></script>
-    <!-- BootStrap CSS Link  -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
 
-    <!-- Bootstrap JavaScript Bundle -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Web icon -->
-     <link rel="icon" href="tiktok-removebg-preview.png">
-    <title>Group E6 - TikTok Guideline</title>
-  </head>
-  <body>
-    <div class="page-container">
-      <!-- Sidebar -->
-      <div class="sidebar-container">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="button.css" />
+  <script type="module" src="tiktok-components.js"></script>
+  <!-- BootStrap CSS Link  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <!-- Bootstrap JavaScript Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- Web icon -->
+  <link rel="icon" href="tiktok-removebg-preview.png">
+  <title>Group E6 - TikTok Guideline</title>
+</head>
+
+<body>
+  <div class="page-container">
+    <!-- Sidebar -->
+    <div class="sidebar-container">
+      <div class="translate-box">
         <h3 class="logo">Group E6</h3>
         <ul class="sidebar-list">
           <a href="#">
@@ -69,21 +67,73 @@
             <button class="btn btn-light">Final Thoughts</button>
           </a>
         </ul>
+        <div>
+          <label class="switch">
+            <input type="checkbox" id="languageToggle">
+            <span class="slider"></span>
+          </label>
+          <span id="toggleLabel">Khmer</span>
+        </div>
       </div>
-      <!-- Main -->
-      <main>
-        <!-- What is TikTok -->
-        <what-is-tiktok></what-is-tiktok>
-        <getting-started-with-tiktok></getting-started-with-tiktok>
-        <exploring-tiktok></exploring-tiktok>
-        <duet-stich></duet-stich>
-        <earning-in></earning-in>
-        <growing-audience></growing-audience>
-        <understand-tik></understand-tik>
-        <additonal-tip></additonal-tip>
-        <final-th></final-th>
-      </main>
+      <ul class="sidebar-list">
+        <a href="#">
+          <button class="btn btn-light">What is Tiktok?</button>
+        </a>
+        <a href="#">
+          <button class="btn btn-light">Getting Started with TikTok</button>
+        </a>
+        <a href="#">
+          <button class="btn btn-light">Navigating Tiktok</button>
+        </a>
+        <a href="#">
+          <button class="btn btn-light">Filming TikTok Videos</button>
+        </a>
+        <a href="#">
+          <button class="btn btn-light">Joining TikTok Challenges</button>
+        </a>
+        <a href="#">
+          <button class="btn btn-light">
+            Exploring TikTok Duet and Stitch
+          </button>
+        </a>
+        <a href="#">
+          <button class="btn btn-light">Earning in TikTok</button>
+        </a>
+        <a href="#">
+          <button class="btn btn-light">Growing Your TikTok Audience</button>
+        </a>
+        <a href="#">
+          <button class="btn btn-light">
+            Understanding TikTok Analytics
+          </button>
+        </a>
+        <a href="#">
+          <button class="btn btn-light">
+            Additional Tips to Become a TikTok Pro User
+          </button>
+        </a>
+        <a href="#">
+          <button class="btn btn-light">Final Thoughts</button>
+        </a>
+      </ul>
     </div>
-    <script src="./script.js"></script>
-  </body>
+    <!-- Main -->
+    <main>
+
+      <!-- What is TikTok -->
+      <what-is-tiktok id="first-para"></what-is-tiktok>
+      <getting-started-with-tiktok id="second-para"></getting-started-with-tiktok>
+      <exploring-tiktok id="third-para"></exploring-tiktok>
+      <duet-stich id="fouth-para"></duet-stich>
+      <earning-in id="fifth-para"></earning-in>
+      <growing-audience id="sixth-para"></growing-audience>
+      <understand-tik id="seventh-para"></understand-tik>
+      <additonal-tip id="eight-para"></additonal-tip>
+      <final-th id="nine-para"></final-th>
+    </main>
+  </div>
+  <script src="./script.js"></script>
+  <script src="./translate.js" type="module"></script>
+</body>
+
 </html>
